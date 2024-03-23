@@ -56,7 +56,7 @@ class LoginWithEmail extends StatelessWidget {
           ],
         ),
         const MorphemeSpacing.vertical16(),
-        Row(
+        Column(
           children: [
             MorphemeButton.elevated(
               key: const ValueKey(MorphemeDataTesId.buttonLoginWithEmail),
