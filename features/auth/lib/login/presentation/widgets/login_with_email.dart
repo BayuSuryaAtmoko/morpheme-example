@@ -56,12 +56,12 @@ class LoginWithEmail extends StatelessWidget {
           ],
         ),
         const MorphemeSpacing.vertical16(),
-        Row(
+        Column(
           children: [
             MorphemeButton.elevated(
               key: const ValueKey(MorphemeDataTesId.buttonLoginWithEmail),
               isLoading: watchLoginState is LoginLoading,
-              text: "Login",
+              text: "Masuk",
               onPressed: () =>
                   context.read<LoginCubit>().onLoginWithEmailPressed(context),
             ),
